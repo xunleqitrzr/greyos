@@ -80,8 +80,4 @@ void print_str(char* str) {
 
 void print_set_color(uint8_t foreground, uint8_t background) {
     color = foreground + (background << 4);
-}
-
-void get_input(char* str) {
-    
 };
